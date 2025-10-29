@@ -1,0 +1,216 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj",
+        "projectName": "HotelReservation.Application",
+        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj",
+        "packagesPath": "/Users/sanjeewajayaweera/.nuget/packages/",
+        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sanjeewajayaweera/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {
+                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[15.1.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet@8/8.0.18/libexec/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj",
+        "projectName": "HotelReservation.Domain",
+        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj",
+        "packagesPath": "/Users/sanjeewajayaweera/.nuget/packages/",
+        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sanjeewajayaweera/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet@8/8.0.18/libexec/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj",
+        "projectName": "HotelReservation.Infrastructure",
+        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj",
+        "packagesPath": "/Users/sanjeewajayaweera/.nuget/packages/",
+        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sanjeewajayaweera/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj": {
+                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj"
+              },
+              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {
+                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet@8/8.0.18/libexec/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

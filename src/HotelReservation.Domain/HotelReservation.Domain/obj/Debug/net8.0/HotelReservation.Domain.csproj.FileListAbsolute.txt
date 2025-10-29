@@ -1,0 +1,12 @@
+/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/obj/Debug/net8.0/HotelReservation.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/obj/Debug/net8.0/HotelReservation.Domain.AssemblyInfoInputs.cache
+/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/obj/Debug/net8.0/HotelReservation.Domain.AssemblyInfo.cs
+/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/obj/Debug/net8.0/HotelReservation.Domain.csproj.CoreCompileInputs.cache
+/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/obj/Debug/net8.0/HotelReservation.Domain.sourcelink.json
+/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/bin/Debug/net8.0/HotelReservation.Domain.deps.json
+/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/bin/Debug/net8.0/HotelReservation.Domain.dll
+/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/bin/Debug/net8.0/HotelReservation.Domain.pdb
+/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/obj/Debug/net8.0/HotelReservation.Domain.dll
+/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/obj/Debug/net8.0/refint/HotelReservation.Domain.dll
+/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/obj/Debug/net8.0/HotelReservation.Domain.pdb
+/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/obj/Debug/net8.0/ref/HotelReservation.Domain.dll
