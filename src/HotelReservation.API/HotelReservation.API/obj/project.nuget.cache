@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UCH8t2hiolYtKUJ7qUHEXX5JIwL/g2fEjL2A7T42st3Zpw9AYWSZZpSQKaPtkl1ymE1R1wb48WqQeXdrq+Y1jg==",
+  "dgSpecHash": "huofsKJFTJdpa8MCVJbBAZRSkyjUqRSJpzeRcLkvJRK1MpKKEOu0iAnATiSp4FsU2FBU8+iP9sJUBkMwAA0m5Q==",
   "success": true,
-  "projectFilePath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.API/HotelReservation.API/HotelReservation.API.csproj",
+  "projectFilePath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.API/HotelReservation.API/HotelReservation.API.csproj",
   "expectedPackageFiles": [
     "/Users/sanjeewajayaweera/.nuget/packages/automapper/15.1.0/automapper.15.1.0.nupkg.sha512",
     "/Users/sanjeewajayaweera/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",

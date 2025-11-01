@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {}
+    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {}
   },
   "projects": {
-    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {
+    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj",
+        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj",
         "projectName": "HotelReservation.Domain",
-        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj",
+        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj",
         "packagesPath": "/Users/sanjeewajayaweera/.nuget/packages/",
-        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/obj/",
+        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sanjeewajayaweera/.nuget/NuGet/NuGet.Config"

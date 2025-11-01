@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JnUrwbsH6d63W3vW51AnMig0IwOhkIKw4r8d7ObRgBFgvnezGb92hoUhAd2pwVARnEqJuak17biAivXDVaYRGg==",
+  "dgSpecHash": "itpgF2hDmNPmEgV5EpObjtt3bb389J3uovyRRZUjpagc7w+BawHtC+9bn3u4+4YvBBuYjZmnJl6OETpTnaOOIw==",
   "success": true,
-  "projectFilePath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj",
+  "projectFilePath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

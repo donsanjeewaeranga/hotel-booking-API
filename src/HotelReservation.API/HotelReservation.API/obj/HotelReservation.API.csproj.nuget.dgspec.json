@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.API/HotelReservation.API/HotelReservation.API.csproj": {}
+    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.API/HotelReservation.API/HotelReservation.API.csproj": {}
   },
   "projects": {
-    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.API/HotelReservation.API/HotelReservation.API.csproj": {
+    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.API/HotelReservation.API/HotelReservation.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.API/HotelReservation.API/HotelReservation.API.csproj",
+        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.API/HotelReservation.API/HotelReservation.API.csproj",
         "projectName": "HotelReservation.API",
-        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.API/HotelReservation.API/HotelReservation.API.csproj",
+        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.API/HotelReservation.API/HotelReservation.API.csproj",
         "packagesPath": "/Users/sanjeewajayaweera/.nuget/packages/",
-        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.API/HotelReservation.API/obj/",
+        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.API/HotelReservation.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sanjeewajayaweera/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj": {
-                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj"
+              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj": {
+                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj"
               },
-              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj": {
-                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj"
+              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj": {
+                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj": {
+    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj",
+        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj",
         "projectName": "HotelReservation.Application",
-        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj",
+        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj",
         "packagesPath": "/Users/sanjeewajayaweera/.nuget/packages/",
-        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/obj/",
+        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Application/HotelReservation.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sanjeewajayaweera/.nuget/NuGet/NuGet.Config"
@@ -113,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {
-                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj"
+              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {
+                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj"
               }
             }
           }
@@ -170,14 +170,14 @@
         }
       }
     },
-    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {
+    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj",
+        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj",
         "projectName": "HotelReservation.Domain",
-        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj",
+        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj",
         "packagesPath": "/Users/sanjeewajayaweera/.nuget/packages/",
-        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/obj/",
+        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sanjeewajayaweera/.nuget/NuGet/NuGet.Config"
@@ -223,14 +223,14 @@
         }
       }
     },
-    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj": {
+    "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj",
+        "projectUniqueName": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj",
         "projectName": "HotelReservation.Infrastructure",
-        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj",
+        "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/HotelReservation.Infrastructure.csproj",
         "packagesPath": "/Users/sanjeewajayaweera/.nuget/packages/",
-        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/obj/",
+        "outputPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Infrastructure/HotelReservation.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sanjeewajayaweera/.nuget/NuGet/NuGet.Config"
@@ -245,11 +245,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj": {
-                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj"
+              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj": {
+                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Application/HotelReservation.Application/HotelReservation.Application.csproj"
               },
-              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {
-                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-app/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj"
+              "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj": {
+                "projectPath": "/Users/sanjeewajayaweera/Documents/Projects/dotNet/hotel-booking-api/src/HotelReservation.Domain/HotelReservation.Domain/HotelReservation.Domain.csproj"
               }
             }
           }

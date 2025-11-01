@@ -18,29 +18,31 @@ public class RoomsController : ControllerBase
     }
 
     [HttpGet("search")]
-    public async Task<ActionResult<IEnumerable<RoomDto>>> SearchRooms([FromQuery] RoomSearchDto searchDto)
-    {
-        try
+        public async Task<IActionResult> SearchRooms(
+            [FromQuery] DateTime checkIn,
+            [FromQuery] DateTime checkOut,
+            [FromQuery] int numberOfGuests)
         {
-            if (searchDto.CheckInDate >= searchDto.CheckOutDate)
+            // Validate dates
+            if (checkIn.Date < DateTime.Now.Date)
             {
-                return BadRequest(new { message = "Check-out date must be after check-in date." });
+                return BadRequest("Check-in date must be in the future");
             }
 
-            if (searchDto.CheckInDate < DateTime.Today)
+            if (checkOut.Date <= checkIn.Date)
             {
-                return BadRequest(new { message = "Check-in date cannot be in the past." });
+                return BadRequest("Check-out date must be after check-in date");
             }
 
-            var rooms = await _roomService.GetAvailableRoomsAsync(searchDto);
-            return Ok(rooms);
+            // Validate number of guests
+            if (numberOfGuests <= 0)
+            {
+                return BadRequest("Number of guests must be greater than 0");
+            }
+
+            var availableRooms = await _roomService.SearchAvailableRoomsAsync(checkIn, checkOut, numberOfGuests);
+            return Ok(availableRooms);
         }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Error searching for rooms");
-            return StatusCode(500, new { message = "An error occurred while searching for rooms." });
-        }
-    }
 
     [HttpGet("{id}")]
     public async Task<ActionResult<RoomDto>> GetRoom(int id)
