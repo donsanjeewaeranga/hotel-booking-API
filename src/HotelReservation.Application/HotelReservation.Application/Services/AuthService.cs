@@ -13,12 +13,21 @@ namespace HotelReservation.Application.Services;
 public class AuthService : IAuthService
 {
     private readonly IAppUserRepository _userRepository;
+    private readonly IGuestRepository _guestRepository;
+    private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
     private readonly IConfiguration _configuration;
 
-    public AuthService(IAppUserRepository userRepository, IMapper mapper, IConfiguration configuration)
+    public AuthService(
+        IAppUserRepository userRepository,
+        IGuestRepository guestRepository,
+        IUnitOfWork unitOfWork,
+        IMapper mapper,
+        IConfiguration configuration)
     {
         _userRepository = userRepository;
+        _guestRepository = guestRepository;
+        _unitOfWork = unitOfWork;
         _mapper = mapper;
         _configuration = configuration;
     }
@@ -41,7 +50,44 @@ public class AuthService : IAuthService
         user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(createUserDto.Password);
 
         await _userRepository.AddAsync(user);
+        await _unitOfWork.SaveChangesAsync();
         return _mapper.Map<UserDto>(user);
+    }
+
+    public async Task<(UserDto User, GuestDto Guest)> RegisterGuestAsync(RegisterGuestDto registerGuestDto)
+    {
+        // Check if email already exists
+        if (await _userRepository.EmailExistsAsync(registerGuestDto.Email))
+            throw new InvalidOperationException("Email already exists");
+
+        // Create and save user
+        var user = new AppUser
+        {
+            Email = registerGuestDto.Email,
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword(registerGuestDto.Password),
+            UserType = Domain.Enums.UserType.Guest
+        };
+        
+        await _userRepository.AddAsync(user);
+        await _unitOfWork.SaveChangesAsync(); // Save to get the UserId
+
+        // Create and save guest profile
+        var guest = new Guest
+        {
+            UserId = user.UserId,
+            Title = registerGuestDto.Title,
+            FirstName = registerGuestDto.FirstName,
+            LastName = registerGuestDto.LastName,
+            PhoneNumber = registerGuestDto.PhoneNumber,
+            Address = registerGuestDto.Address,
+            User = user
+        };
+
+        await _guestRepository.AddAsync(guest);
+        await _unitOfWork.SaveChangesAsync();
+
+        // Return both user and guest DTOs
+        return (_mapper.Map<UserDto>(user), _mapper.Map<GuestDto>(guest));
     }
 
     public async Task<bool> ValidatePasswordAsync(string email, string password)

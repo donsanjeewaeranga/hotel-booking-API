@@ -34,8 +34,8 @@ public class ReservationService : IReservationService
         if (guest == null)
             throw new KeyNotFoundException("Guest not found");
 
-        // Validate room exists and is available
-        var room = await _roomRepository.GetByIdAsync(createReservationDto.RoomId);
+        // Validate room exists and is available - use GetWithDetailsAsync to load RoomType
+        var room = await _roomRepository.GetWithDetailsAsync(createReservationDto.RoomId);
         if (room == null)
             throw new KeyNotFoundException("Room not found");
 

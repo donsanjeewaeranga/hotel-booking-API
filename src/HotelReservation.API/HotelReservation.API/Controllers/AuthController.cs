@@ -46,6 +46,41 @@ public class AuthController : ControllerBase
         }
     }
 
+    [HttpPost("register/guest")]
+    public async Task<ActionResult<object>> RegisterGuest([FromBody] RegisterGuestDto registerGuestDto)
+    {
+        try
+        {
+            var validator = new RegisterGuestDtoValidator();
+            var validationResult = await validator.ValidateAsync(registerGuestDto);
+            
+            if (!validationResult.IsValid)
+            {
+                return BadRequest(validationResult.Errors);
+            }
+
+            var (user, guest) = await _authService.RegisterGuestAsync(registerGuestDto);
+            var token = await _authService.GenerateJwtTokenAsync(user);
+
+            return CreatedAtAction(nameof(GetUser), new { id = user.UserId }, new
+            {
+                user,
+                guest,
+                token
+            });
+        }
+        catch (InvalidOperationException ex)
+        {
+            _logger.LogWarning(ex, "Guest registration failed for email: {Email}", registerGuestDto.Email);
+            return Conflict(new { message = ex.Message });
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Unexpected error during guest registration for email: {Email}", registerGuestDto.Email);
+            return StatusCode(500, new { message = "An unexpected error occurred during registration." });
+        }
+    }
+
     [HttpPost("login")]
     public async Task<ActionResult<object>> Login([FromBody] LoginDto loginDto)
     {
