@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotelReservation.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8206ce655a6d252987967561dae4ec0e94e496bb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94d383ba9e4e1063a7f77ed3e174d421d4f38ad5")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotelReservation.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotelReservation.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
