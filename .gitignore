@@ -398,3 +398,8 @@ FodyWeavers.xsd
 *.db
 *.sqlite
 *.sqlite3
+
+**/bin/
+**/obj/
+*.dll
+*.pdb
