@@ -30,6 +30,8 @@ public class ReservationSummaryDto
     public int ReservationId { get; set; }
     public string RoomNumber { get; set; } = string.Empty;
     public string RoomType { get; set; } = string.Empty;
+    // Full room type details (including imageUrl) for UI display
+    public RoomTypeDto? RoomTypeDetail { get; set; }
     public DateTime CheckInDate { get; set; }
     public DateTime CheckOutDate { get; set; }
     public decimal GrandTotal { get; set; }

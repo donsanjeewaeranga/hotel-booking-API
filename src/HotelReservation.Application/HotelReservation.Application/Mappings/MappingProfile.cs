@@ -34,6 +34,7 @@ public class MappingProfile : Profile
         CreateMap<Reservation, ReservationSummaryDto>()
             .ForMember(dest => dest.RoomNumber, opt => opt.MapFrom(src => src.Room.RoomNumber))
             .ForMember(dest => dest.RoomType, opt => opt.MapFrom(src => src.Room.RoomType.TypeName))
+            .ForMember(dest => dest.RoomTypeDetail, opt => opt.MapFrom(src => src.Room.RoomType))
             .ForMember(dest => dest.NumberOfDays, opt => opt.MapFrom(src => src.GetNumberOfDays()));
         CreateMap<CreateReservationDto, Reservation>()
             .ForMember(dest => dest.ReservationId, opt => opt.Ignore())
