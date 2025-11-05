@@ -156,9 +156,9 @@ public class ApplicationDbContext : DbContext
     {
         // Seed RoomTypes
         modelBuilder.Entity<RoomType>().HasData(
-            new RoomType { RoomTypeId = 1, TypeName = "Standard", Description = "Standard room with basic amenities", Capacity = 2, BasePrice = 100.00m },
-            new RoomType { RoomTypeId = 2, TypeName = "Deluxe", Description = "Deluxe room with enhanced amenities", Capacity = 2, BasePrice = 150.00m },
-            new RoomType { RoomTypeId = 3, TypeName = "Suite", Description = "Luxury suite with premium amenities", Capacity = 4, BasePrice = 300.00m }
+            new RoomType { RoomTypeId = 1, TypeName = "Standard", Description = "A Standard Room offers comfort and convenience with essential amenities like a cozy bed, private bathroom, air conditioning, and Wi-Fi—ideal for both business and leisure stays.", Capacity = 2, BasePrice = 100.00m, ImageUrl = "/images/standard-room.jpg" },
+            new RoomType { RoomTypeId = 2, TypeName = "Deluxe", Description = "A Deluxe Room offers extra space, stylish décor, and upgraded amenities for a more comfortable and luxurious stay.", Capacity = 2, BasePrice = 150.00m, ImageUrl = "/images/delux-room.jpg" },
+            new RoomType { RoomTypeId = 3, TypeName = "Suite", Description = "A Suite Room provides a separate living area, premium furnishings, and exclusive amenities for an indulgent experience.", Capacity = 4, BasePrice = 300.00m, ImageUrl = "/images/suite-room.jpg" }
         );
 
         // Seed RoomFeatures

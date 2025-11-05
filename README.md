@@ -2,6 +2,14 @@
 
 A comprehensive hotel booking system built with .NET 8, following Clean Architecture principles.
 
+## Setup
+
+### First Time Setup
+
+1. Copy `appsettings.Development.json.example` to `appsettings.Development.json` in the API project
+2. Update the connection string with your PostgreSQL credentials
+3. Never commit `appsettings.Development.json` (it's in .gitignore)
+
 ## Features
 
 - **User Authentication & Authorization** - JWT-based authentication
